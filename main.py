@@ -111,7 +111,7 @@ class FootballDataClient:
 # ==============================================================================
 
 def main():
-    API_KEY = "YOUR_FREE_API_KEY_HERE" # Get one at football-data.org
+    API_KEY = " 8224941795034e4fa5aa8b09ae98d52b" # Get one at football-data.org
     client = FootballDataClient(API_KEY)
     
     print(f"--- 401 PREDICT TOOL REPORT: {datetime.now().strftime('%Y-%m-%d %H:%M')} ---")
@@ -159,4 +159,4 @@ def main():
         time.sleep(1) # Prevent API rate limiting
 
 if __name__ == "__main__":
-    main()
+    main()f
